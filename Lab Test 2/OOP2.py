@@ -5,7 +5,7 @@ class Person:
         self.gender = gender
 
     def display_info(self):
-        return f"Name: {self.name}, Age: {self.age}, Gender: {self.gender}"
+        return "Name: {self.name}, Age: {self.age}, Gender: {self.gender}"
 
 class Teacher(Person):
     def __init__(self, name, age, gender, subject, experience):
