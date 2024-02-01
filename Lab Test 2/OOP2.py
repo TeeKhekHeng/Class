@@ -30,3 +30,4 @@ student_instance = Student("Alice", 15, "Female", 10, 85)
 
 print(teacher_instance.display_info())
 print(student_instance.display_info())
+
