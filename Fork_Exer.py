@@ -31,3 +31,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+"""
+Parent process (PID 1234): Original numbers: [1, 2, 3, 4, 5]
+Child process (PID 1235): Squaring numbers...
+Child process (PID 1235): Modified numbers: [2, 3, 4, 5, 6]
+Parent process (PID 1234): Child process finished.
+Parent process (PID 1234): Modified numbers by child process: [4, 6, 8, 10, 12]
+"""
